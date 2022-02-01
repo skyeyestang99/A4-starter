@@ -1,8 +1,8 @@
 #ifndef _INSTRUCTION_H
 #define _INSTRUCTION_H
 
-#define MAXPROG 256 // max program size
-#define MAXLINE 256 // lines can't be longer than this
+#define MAX_PROG 256 // max program size
+#define MAX_LINE 256 // lines can't be longer than this
 // list of possible operations
 enum ops_t {
 	PUSH = 0,

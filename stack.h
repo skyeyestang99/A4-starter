@@ -10,7 +10,7 @@
 ///
 typedef struct node {
 	int val;
-	struct node* nxt;
+	struct node* next;
 } node_t;
 
 /// push val onto the stack
