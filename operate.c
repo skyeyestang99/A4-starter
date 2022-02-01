@@ -10,5 +10,4 @@
 /// errors may include:
 ///   insufficent operands on the stack
 ///   unrecognized instruction.
-int operate(int pc, instr_t *inst){
-}
+int operate(int pc, instr_t* inst) {}

@@ -1,6 +1,6 @@
+#include "stack.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "stack.h"
 
 /*
  * You might want to declare some global variables to
@@ -8,27 +8,21 @@
  */
 
 /* push a value to the stack */
-void push(int val){
-}
+void push(int val) {}
 
 /* pop a value from the stack
- * return 0 if pop failed, else return 1 and set *v 
+ * return 0 if pop failed, else return 1 and set *v
  */
-int pop(int *v){
-}
+int pop(int* v) {}
 
 /* print the entire stack */
-void printstack(){
-}
+void printstack() {}
 
 /* the topmost entry becomes the lowest entry in the stack */
-void rot(){
-}
+void rot() {}
 
 /* returns the size of the stack */
-unsigned int get_stack_size(){
-}
+unsigned int get_stack_size() {}
 
 /* delete all entries in the stack, free all memory associated with it */
-void delete_stack(){
-}
+void delete_stack() {}
