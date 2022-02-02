@@ -9,16 +9,15 @@
 /// datastructure for one stack entry
 ///
 typedef struct node {
-  int val;
-  struct node *nxt;
+	int val;
+	struct node* next;
 } node_t;
-
 
 /// push val onto the stack
 extern void push(int val);
 
 /// pop val from the stack (return 1 on success, 0 on failure)
-extern int pop(int *val);
+extern int pop(int* val);
 
 /// print the stack
 extern void printstack();

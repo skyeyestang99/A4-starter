@@ -10,8 +10,6 @@
 /// errors may include:
 ///   insufficent operands on the stack
 ///   unrecognized instruction.
-int operate(int pc, instr_t *inst){
-}
+int operate(int pc, instr_t* inst) {}
 
-int check_stack(unsigned int x, int pc){
-}
+int check_stack(unsigned int x, int pc) {}
