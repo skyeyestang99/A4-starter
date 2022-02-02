@@ -1,0 +1,9 @@
+push 1
+push 1
+print
+printstack
+dup
+mult
+pop
+printstack
+halt

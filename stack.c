@@ -5,6 +5,11 @@
 /*
  * You might want to declare some global variables to
  * help you maintain the stack, and the state of the stack.
+ * Once you have implemented push and pop here and corresponding
+ * parts in operate.c - we highly recommend checking out
+ * tests/stack_test and running it to see if you are getting expected
+ * output - to check basic stack functionality. You could write similar
+ * tests for other functionalities.
  */
 
 /* push a value to the stack */

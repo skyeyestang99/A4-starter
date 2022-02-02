@@ -1,0 +1,15 @@
+push 5
+push 6
+printstack
+mult
+printstack
+push 5
+push 8
+add
+printstack
+swap
+printstack
+rot
+printstack
+btrue -2
+halt

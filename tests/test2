@@ -1,0 +1,12 @@
+get
+get
+print
+printstack
+sub
+printstack
+get
+push 5
+printstack
+add
+printstack
+halt

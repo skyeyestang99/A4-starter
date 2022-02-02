@@ -1,0 +1,14 @@
+get
+dup
+push 1
+sub
+dup
+rot
+mult
+swap
+cmp 2
+not
+btrue -8
+swap
+print
+halt

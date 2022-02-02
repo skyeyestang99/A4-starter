@@ -1,0 +1,10 @@
+push 5
+push 25
+printstack
+btrue 2
+printstack
+push 3
+pop
+printstack
+add
+halt
