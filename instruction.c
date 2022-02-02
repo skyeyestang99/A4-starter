@@ -16,7 +16,7 @@ static const char* inames[] = {
 	"print",
 	"printstack",
 	"btrue",
-	"cmp",
+	"cmpi",
 	"halt",
 	"add",
 	"sub",

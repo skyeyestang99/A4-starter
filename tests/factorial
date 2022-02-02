@@ -6,7 +6,7 @@ dup
 rot
 mult
 swap
-cmp 2
+cmpi 2
 not
 btrue -8
 swap
