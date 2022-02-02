@@ -9,5 +9,5 @@
 
 /// do an operation specified by the instrution pointer
 extern int operate(int, instr_t *);
-
+extern int check_stack(unsigned int, int);
 #endif

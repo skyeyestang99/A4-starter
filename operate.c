@@ -12,3 +12,6 @@
 ///   unrecognized instruction.
 int operate(int pc, instr_t *inst){
 }
+
+int check_stack(unsigned int x, int pc){
+}
