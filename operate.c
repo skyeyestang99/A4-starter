@@ -18,7 +18,7 @@ int operate(int pc, instr_t* inst) {
         case POP: /* perform pop expression */
             break;
             /* add other instruction handling here. */
-        deafult:
+        default:
             fprintf(stderr, "Illegal opcode 0x%04x at pc %04d\n", inst->opcode, pc);
             exit(EXIT_FAILURE);
     }
