@@ -3,6 +3,7 @@
 
 #include "instruction.h"
 #include "stack.h"
+#include "operate.h"
 
 /// operate on the instruction pointed by inst which is located at the given pc.  Return
 /// the new PC or -1 if there was an error
