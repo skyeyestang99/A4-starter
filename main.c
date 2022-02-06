@@ -53,6 +53,10 @@ int main(int argc, char* argv[]) {
 	while (pc >= 0) {
 		int n_pc;
 		instr_t* inst = get_instruction(pc);
+        if (inst == NULL) {
+			printf("Abort at pc = %04d\n", pc);
+			break;
+		}
 		if (trace_mode) {
 			char str[MAX_LINE];
 			printf("%04d\t%s\n", icount++, format_instruction(pc, str));
