@@ -42,13 +42,13 @@ int pop(int *v) {
 
 /* print the entire stack */
 void printstack() {
-    int index=0;
+    int index=size-1;
     node_t *cur = malloc(sizeof(node_t));
     cur = head;
     for(int i = size-1;i>=0;i--){
         printf("\tS%d:\t%d\n",index,cur->val);
         cur=cur->next;
-        index++;
+        index--;
     }
 }
 
