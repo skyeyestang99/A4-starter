@@ -64,10 +64,11 @@ unsigned int get_stack_size() {
 
 /* delete all entries in the stack, free all memory associated with it */
 void delete_stack() {
+    node_t *cur;
     for(int i = size;i>0;i--){
-        node_t *cur = malloc(sizeof(node_t));
-         cur=cur->next;
-         free(cur);
+        cur=head;
+        cur=cur->next;
+        free(cur);
     }
     free(head);
 }

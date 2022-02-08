@@ -4,6 +4,8 @@
 #include "instruction.h"
 #include "stack.h"
 #include "operate.h"
+extern unsigned int size;
+extern node_t* head;
 
 int operate(int pc, instr_t* inst){
 
