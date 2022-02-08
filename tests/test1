@@ -2,6 +2,7 @@ push 5
 push 6
 printstack
 mult
+print
 printstack
 push 5
 push 8

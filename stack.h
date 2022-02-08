@@ -5,14 +5,14 @@
 /// these are called header guards.  They prevent a .h file from being included
 /// in a .c file multiple times.
 #define _STACK_H
-
+unsigned int size;
 /// datastructure for one stack entry
 ///
 typedef struct node {
 	int val;
 	struct node* next;
 } node_t;
-
+node_t *head;
 /// push val onto the stack
 extern void push(int val);
 
