@@ -22,7 +22,7 @@ int pop(int *v) {
     if(head==NULL){
         return 0;
     }
-    node_t *temp= malloc(sizeof(node_t));
+    node_t *temp;
     *v = (head->val);
     temp = head;
     head=head->next;
@@ -34,7 +34,7 @@ int pop(int *v) {
 /* print the entire stack */
 void printstack() {
     int index=size-1;
-    node_t *cur = malloc(sizeof(node_t));
+    node_t *cur;
     cur = head;
     for(int i = size-1;i>=0;i--){
         printf("\tS%d:\t%d\n",index,cur->val);
@@ -45,8 +45,8 @@ void printstack() {
 
 /* the topmost entry becomes the lowest entry in the stack */
 void rot() {
-    node_t *temp = malloc(sizeof(node_t));
-    node_t *cur = malloc(sizeof(node_t));
+    node_t *temp;
+    node_t *cur;
     cur = head;
     for(int i = size;i>1;i--){
          cur=cur->next;
@@ -65,9 +65,7 @@ unsigned int get_stack_size() {
 /* delete all entries in the stack, free all memory associated with it */
 void delete_stack() {
     for(int i = size;i>0;i--){
-        node_t *cur = malloc(sizeof(node_t));
-         cur=cur->next;
-         free(cur);
+       int x;
+       pop(&x);
     }
-    free(head);
 }
